@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="formul.css">
+</head>
+<body> 
+
+    <h1>Formulario Pet Shop</h1>
+    <h2>Cadastro</h2>
+
+    <form action="Cadastro.pet" method="get">
+        <p>Nome do Pet</p>
+        <input type="text" placeholder="Digite o nome do animal:" name="nome do pet"> <br>
+        <p>Nome do Tutor Responsável</p>
+        <input type="text" placeholder="Digite o nome do tutor Responsável:" name="tutor" id=""> <br>
+        <p>Espécie do animal</p>
+        <input type="text" placeholder="Digite a espécie do animal:" name="especie"> <br>
+        <p>Raça do animal</p>
+        <input type="text" placeholder="Raça do Animal:" name="Raça"> <br>
+        <p>Ano de nascimento do animal</p>
+        <input type="date" name="Data de nascimento" name="Datanascimento" id=""> <br>
+        <p>Procedimentos realizados</p>
+        <select name="Procedimentos" id="">
+        <option value="Banho e Tosa">Banho e Tosa</option>
+        <option value="Cirurgia"> Cirurgia</option>
+        <option value="Internacao">Internação</option>
+        <option value="Remédios">Remedios</option> </select>
+        <p>Acréscimos</p>
+        Detalhes e Observações: <textarea name="Obs:" cols="30" rows="10"></textarea>
+        <p>Veterinário Responsável</p>
+        <input type="checkbox" name="Doutor Julio Macedo" id=""> Doutor Julio Macedo
+        <input type="checkbox" name="Doutora Claudia Raia" id=""> Doutora Claudia Raia
+        <input type="checkbox" name="Doutor Rafael Marques"> Doutor Rafael Marques
+
+        <p>Data de Entrada</p>
+        <input type="date" name="Data de entrada" name="Dataentrada" id=""> <br>
+        <p>Data de Saída</p>
+        <input type="date" name="Data de saida" name="Datasaida" id=""> <br>
+
+    </form>
+</body>
+</html>
